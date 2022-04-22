@@ -1,0 +1,39 @@
+{
+  "name": "@stardust-configs/stylelint-config",
+  "version": "0.1.0",
+  "description": "Shareable Stylelint config",
+  "keywords": [
+    "stylelint",
+    "stylelint-config"
+  ],
+  "homepage": "https://github.com/@stardust-configs/stylelint-config#readme",
+  "bugs": {
+    "url": "https://github.com/@stardust-configs/stylelint-config/issues"
+  },
+  "license": "MIT",
+  "author": "P-Chan",
+  "files": [
+    "index.js",
+    "stylelint.config.js"
+  ],
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/@stardust-configs/stylelint-config.git"
+  },
+  "scripts": {
+    "format": "prettier --write ."
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "9.0.3",
+    "stylelint-config-recess-order": "3.0.0"
+  },
+  "devDependencies": {
+    "@stardust-configs/prettier-config": "0.1.1",
+    "prettier": "2.6.2"
+  },
+  "peerDependencies": {
+    "prettier": "^2.0.0",
+    "stylelint": "^14.0.0"
+  }
+}
