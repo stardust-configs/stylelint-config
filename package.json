@@ -6,9 +6,9 @@
     "stylelint",
     "stylelint-config"
   ],
-  "homepage": "https://github.com/@stardust-configs/stylelint-config#readme",
+  "homepage": "https://github.com/stardust-configs/stylelint-config#readme",
   "bugs": {
-    "url": "https://github.com/@stardust-configs/stylelint-config/issues"
+    "url": "https://github.com/stardust-configs/stylelint-config/issues"
   },
   "license": "MIT",
   "author": "P-Chan",
@@ -20,7 +20,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/@stardust-configs/stylelint-config.git"
+    "url": "https://github.com/stardust-configs/stylelint-config.git"
   },
   "scripts": {
     "format": "prettier --write .",
