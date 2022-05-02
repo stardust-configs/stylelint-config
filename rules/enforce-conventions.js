@@ -14,7 +14,7 @@ const enforceConventions = {
   'color-function-notation': 'legacy',
   'color-hex-alpha': 'never',
   'color-hex-length': 'long',
-  'color-named': 'always-where-possible',
+  'color-named': 'never',
   'color-no-hex': null,
 
   // Length
