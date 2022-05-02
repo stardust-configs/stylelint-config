@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.2.0](https://github.com/stardust-configs/stylelint-config/compare/v0.1.0...v0.2.0) (2022-05-02)
+
+
+### Features
+
+* change color-named to never ([830d168](https://github.com/stardust-configs/stylelint-config/commit/830d16896b5e72e1b8eb9ff52f17ecf8f34161c8))
+
 ## 0.1.0 (2022-04-24)
 
 
