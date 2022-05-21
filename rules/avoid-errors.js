@@ -36,7 +36,13 @@ const avoidErrors = {
 
   // Declaration block
   'declaration-block-no-duplicate-custom-properties': true,
-  'declaration-block-no-duplicate-properties': true,
+  'declaration-block-no-duplicate-properties': [
+    true,
+    {
+      // For fallback (ex: vh and dvh)
+      ignore: ['consecutive-duplicates'],
+    },
+  ],
   'declaration-block-no-shorthand-property-overrides': true,
 
   // Block
