@@ -34,6 +34,9 @@ const enforceConventions = {
   'function-url-scheme-allowed-list': null,
   'function-url-scheme-disallowed-list': null,
 
+  // Imports
+  'import-notation': 'string',
+
   // Keyframes
   'keyframes-name-pattern': null,
 
