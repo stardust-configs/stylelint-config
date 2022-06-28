@@ -34,6 +34,9 @@ const avoidErrors = {
   // Keyframe declaration
   'keyframe-declaration-no-important': true,
 
+  // Keyframe block
+  'keyframe-block-no-duplicate-selectors': true,
+
   // Declaration block
   'declaration-block-no-duplicate-custom-properties': true,
   'declaration-block-no-duplicate-properties': [
