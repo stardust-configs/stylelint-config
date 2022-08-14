@@ -24,6 +24,17 @@ Edit `.stylelintrc`.
 }
 ```
 
+Edit `package.json`.
+
+```json
+{
+  "scripts": {
+    "fix:css": "stylelint ./**/*.css --fix",
+    "lint:css": "stylelint ./**/*.css"
+  }
+}
+```
+
 ## Author
 
 [@p-chan](https://github.com/p-chan)
