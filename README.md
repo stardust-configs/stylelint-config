@@ -5,13 +5,13 @@
 ## Install
 
 ```sh
-npm install @stardust-configs/stylelint-config -D
+npm install stylelint @stardust-configs/stylelint-config -D
 ```
 
 or
 
 ```sh
-yarn add @stardust-configs/stylelint-config -D
+yarn add stylelint @stardust-configs/stylelint-config -D
 ```
 
 ## Usage
