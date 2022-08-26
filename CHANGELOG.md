@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.4.0](https://github.com/stardust-configs/stylelint-config/compare/v0.3.1...v0.4.0) (2022-08-26)
+
+
+### Features
+
+* add annotation-no-unknown ([7c85845](https://github.com/stardust-configs/stylelint-config/commit/7c8584583d4a68a932f80b2dd46ff20b8e51a9d2))
+* add keyframe-selector-notation ([813f0ae](https://github.com/stardust-configs/stylelint-config/commit/813f0aedf74fc79fbaa6ff6113553e3b97949300))
+
 ### [0.3.1](https://github.com/stardust-configs/stylelint-config/compare/v0.3.0...v0.3.1) (2022-06-28)
 
 
