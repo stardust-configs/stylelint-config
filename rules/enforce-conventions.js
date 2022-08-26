@@ -37,6 +37,9 @@ const enforceConventions = {
   // Imports
   'import-notation': 'string',
 
+  // Keyframe selector
+  'keyframe-selector-notation': 'percentage-unless-within-keyword-only-block',
+
   // Keyframes
   'keyframes-name-pattern': null,
 
