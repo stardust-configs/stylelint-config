@@ -4,6 +4,9 @@
  * @see https://stylelint.io/user-guide/rules/list/#avoid-errors
  */
 const avoidErrors = {
+  // Annotation
+  'annotation-no-unknown': true,
+
   // Color
   'color-no-invalid-hex': true,
 
