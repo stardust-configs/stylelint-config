@@ -73,7 +73,19 @@ const enforceConventions = {
   'declaration-property-unit-allowed-list': null,
   'declaration-property-unit-disallowed-list': null,
   'declaration-property-value-allowed-list': null,
-  'declaration-property-value-disallowed-list': null,
+  'declaration-property-value-disallowed-list': {
+    /**
+     * Disallow to write 4 properties
+     *
+     * @description Safari does not support shorthand with thickness, so disallow to write 4 properties.
+     * @example <caption>OK</caption>
+     * // text-decoration: solid underline #000000;
+     * @example <caption>NG</caption>
+     * // text-decoration: solid underline #000000 2px;
+     * @see https://developer.mozilla.org/en-US/docs/Web/CSS/text-decoration#browser_compatibility
+     */
+    'text-decoration': '/.+\\s.+\\s.+\\s.+/',
+  },
 
   // Declaration block
   'declaration-block-no-redundant-longhand-properties': true,
