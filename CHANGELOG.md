@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.6.0](https://github.com/stardust-configs/stylelint-config/compare/v0.5.0...v0.6.0) (2022-11-02)
+
+
+### Features
+
+* add disallow text-decoration pattern ([7cf1b58](https://github.com/stardust-configs/stylelint-config/commit/7cf1b5823aef5fe7bd452385c75d1178d12de38e))
+
 ## [0.5.0](https://github.com/stardust-configs/stylelint-config/compare/v0.4.0...v0.5.0) (2022-10-04)
 
 ## [0.4.0](https://github.com/stardust-configs/stylelint-config/compare/v0.3.1...v0.4.0) (2022-08-26)
