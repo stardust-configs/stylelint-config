@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.7.0](https://github.com/stardust-configs/stylelint-config/compare/v0.6.0...v0.7.0) (2023-02-02)
+
+
+### Features
+
+* add media-feature-range-notation ([3a9047c](https://github.com/stardust-configs/stylelint-config/commit/3a9047c1e5b347e03c4281e58dafecfbd46f1fc3))
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-config-prettier to v9.0.4 ([2cd98bd](https://github.com/stardust-configs/stylelint-config/commit/2cd98bd5bc2ac4b996be7a04331160c88854fd25))
+* **deps:** update dependency stylelint-config-recess-order to v3.1.0 ([d25910e](https://github.com/stardust-configs/stylelint-config/commit/d25910ef2185bdd2e1093dc0378b700ec6b8c8d2))
+
 ## [0.6.0](https://github.com/stardust-configs/stylelint-config/compare/v0.5.0...v0.6.0) (2022-11-02)
 
 
