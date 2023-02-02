@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "stylelint-config-prettier": "9.0.4",
-    "stylelint-config-recess-order": "3.0.0"
+    "stylelint-config-recess-order": "3.1.0"
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
