@@ -40,6 +40,6 @@
   },
   "peerDependencies": {
     "prettier": "^2.0.0",
-    "stylelint": "^14.14.0"
+    "stylelint": "^14.16.0"
   }
 }
