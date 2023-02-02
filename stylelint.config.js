@@ -1,9 +1,9 @@
-const { avoidErrors, enforceConventions } = require('./rules')
+const { avoidErrors, enforceNonStylisticConventions } = require('./rules')
 
 module.exports = {
   extends: ['stylelint-config-recess-order', 'stylelint-config-prettier'],
   rules: {
     ...avoidErrors,
-    ...enforceConventions,
+    ...enforceNonStylisticConventions,
   },
 }

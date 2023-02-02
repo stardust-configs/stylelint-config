@@ -35,6 +35,9 @@ const avoidErrors = {
   'no-invalid-position-at-import-rule': true,
   'string-no-newline': true,
 
+  // Irregular
+  'no-irregular-whitespace': true,
+
   // Missing
   'custom-property-no-missing-var-function': true,
   'font-family-no-missing-generic-family-keyword': true,
@@ -50,6 +53,7 @@ const avoidErrors = {
   'at-rule-no-unknown': true,
   'function-no-unknown': true,
   'media-feature-name-no-unknown': true,
+  'no-unknown-animations': true,
   'property-no-unknown': true,
   'selector-pseudo-class-no-unknown': true,
   'selector-pseudo-element-no-unknown': true,

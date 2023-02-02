@@ -1,7 +1,7 @@
 const avoidErrors = require('./avoid-errors')
-const enforceConventions = require('./enforce-conventions')
+const enforceNonStylisticConventions = require('./enforce-non-stylistic-conventions')
 
 module.exports = {
   avoidErrors,
-  enforceConventions,
+  enforceNonStylisticConventions,
 }
