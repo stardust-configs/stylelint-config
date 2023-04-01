@@ -36,10 +36,10 @@
     "@stardust-configs/prettier-config": "0.1.1",
     "prettier": "2.8.4",
     "standard-version": "9.5.0",
-    "stylelint": "14.16.1"
+    "stylelint": "15.4.0"
   },
   "peerDependencies": {
     "prettier": "^2.0.0",
-    "stylelint": "^14.16.0"
+    "stylelint": "^14.16.0 || ^15.0.0"
   }
 }
