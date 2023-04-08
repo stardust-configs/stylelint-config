@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.8.0](https://github.com/stardust-configs/stylelint-config/compare/v0.7.0...v0.8.0) (2023-04-08)
+
+
+### Features
+
+* add v15 support ([6754e0f](https://github.com/stardust-configs/stylelint-config/commit/6754e0fa9bf3365027925d0b1a37364850c2a8fc))
+* remove stylelint-config-prettier ([28e86c5](https://github.com/stardust-configs/stylelint-config/commit/28e86c5edaff35c5a916c9f24f5cf8a87bb7895b))
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-config-prettier to v9.0.5 ([78cdfdc](https://github.com/stardust-configs/stylelint-config/commit/78cdfdc154f532015c5592e4672c35c5a6488937))
+* **deps:** update dependency stylelint-config-recess-order to v4 ([f33ae32](https://github.com/stardust-configs/stylelint-config/commit/f33ae32b01c291a102d2ae3480f216d40e99952d))
+
 ## [0.7.0](https://github.com/stardust-configs/stylelint-config/compare/v0.6.0...v0.7.0) (2023-02-02)
 
 
