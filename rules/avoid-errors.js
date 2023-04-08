@@ -48,12 +48,17 @@ const avoidErrors = {
   // Overrides
   'declaration-block-no-shorthand-property-overrides': true,
 
+  // Unmatchable
+  'selector-anb-no-unmatchable': true,
+
   // Unknown
   'annotation-no-unknown': true,
   'at-rule-no-unknown': true,
+  'declaration-property-value-no-unknown': true,
   'function-no-unknown': true,
   'media-feature-name-no-unknown': true,
   'no-unknown-animations': true,
+  'no-unknown-custom-properties': null,
   'property-no-unknown': true,
   'selector-pseudo-class-no-unknown': true,
   'selector-pseudo-element-no-unknown': true,
