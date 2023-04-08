@@ -54,6 +54,7 @@ const enforceNonStylisticConventions = {
   'media-feature-name-allowed-list': null,
   'media-feature-name-disallowed-list': null,
   'media-feature-name-no-vendor-prefix': true,
+  'media-feature-name-unit-allowed-list': null,
   'media-feature-name-value-allowed-list': null,
 
   // Property
@@ -84,6 +85,49 @@ const enforceNonStylisticConventions = {
 
   // Value
   'value-no-vendor-prefix': true,
+
+  /**
+   * Case
+   */
+  'function-name-case': 'lower',
+  'selector-type-case': 'lower',
+  'value-keyword-case': 'lower',
+
+  /**
+   * Empty lines
+   */
+  'at-rule-empty-line-before': [
+    'always',
+    {
+      except: ['after-same-name', 'first-nested'],
+      ignore: ['after-comment', 'first-nested'],
+    },
+  ],
+  'comment-empty-line-before': [
+    'always',
+    {
+      except: ['first-nested'],
+      ignore: ['after-comment', 'stylelint-commands'],
+    },
+  ],
+  'custom-property-empty-line-before': [
+    'always',
+    {
+      except: ['after-comment', 'after-custom-property', 'first-nested'],
+    },
+  ],
+  'declaration-empty-line-before': [
+    'always',
+    {
+      except: ['after-comment', 'after-declaration', 'first-nested'],
+    },
+  ],
+  'rule-empty-line-before': [
+    'always',
+    {
+      except: ['after-single-line-comment', 'first-nested'],
+    },
+  ],
 
   /**
    * Max & min
@@ -140,6 +184,11 @@ const enforceNonStylisticConventions = {
    */
   'declaration-block-no-redundant-longhand-properties': true,
   'shorthand-property-no-redundant-values': true,
+
+  /**
+   * Whitespace inside
+   */
+  'comment-whitespace-inside': 'always',
 }
 
 module.exports = enforceNonStylisticConventions
