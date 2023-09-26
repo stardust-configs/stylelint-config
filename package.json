@@ -29,7 +29,7 @@
     "version:patch": "standard-version -r patch"
   },
   "dependencies": {
-    "stylelint-config-recess-order": "4.0.0"
+    "stylelint-config-recess-order": "4.3.0"
   },
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.1.1",
