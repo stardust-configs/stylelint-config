@@ -30,6 +30,7 @@ const avoidErrors = {
   'color-no-invalid-hex': true,
   'function-calc-no-unspaced-operator': true,
   'keyframe-declaration-no-important': true,
+  'media-query-no-invalid': true,
   'named-grid-areas-no-invalid': true,
   'no-invalid-double-slash-comments': true,
   'no-invalid-position-at-import-rule': true,
