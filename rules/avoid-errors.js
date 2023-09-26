@@ -58,6 +58,7 @@ const avoidErrors = {
   'declaration-property-value-no-unknown': true,
   'function-no-unknown': true,
   'media-feature-name-no-unknown': true,
+  'media-feature-name-value-no-unknown': null,
   'no-unknown-animations': true,
   'no-unknown-custom-properties': null,
   'property-no-unknown': true,
