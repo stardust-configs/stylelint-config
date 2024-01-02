@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.9.0](https://github.com/stardust-configs/stylelint-config/compare/v0.8.0...v0.9.0) (2024-01-02)
+
+
+### Features
+
+* add media-feature-name-value-no-unknown ([#22](https://github.com/stardust-configs/stylelint-config/issues/22)) ([75db86a](https://github.com/stardust-configs/stylelint-config/commit/75db86a263de6de8718d3f9fbb290abf0ec2d6a7))
+* add media-query-no-invalid ([#21](https://github.com/stardust-configs/stylelint-config/issues/21)) ([a3f0bde](https://github.com/stardust-configs/stylelint-config/commit/a3f0bded8ec6e06fabd5295f3d542e33de914025))
+
+
+### Bug Fixes
+
+* **deps:** update dependency stylelint-config-recess-order to v4.3.0 ([25db8de](https://github.com/stardust-configs/stylelint-config/commit/25db8de0c2b0fb4991628965e35ec62323f40bbe))
+* **deps:** update dependency stylelint-config-recess-order to v4.4.0 ([#27](https://github.com/stardust-configs/stylelint-config/issues/27)) ([acc75cf](https://github.com/stardust-configs/stylelint-config/commit/acc75cfc7ff9ce313c623a1202cc3f2e36e3f838))
+
 ## [0.8.0](https://github.com/stardust-configs/stylelint-config/compare/v0.7.0...v0.8.0) (2023-04-08)
 
 
