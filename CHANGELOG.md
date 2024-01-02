@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [0.10.0](https://github.com/stardust-configs/stylelint-config/compare/v0.9.0...v0.10.0) (2024-01-02)
+
+
+### Features
+
+* allow `-webkit-box` for `line-clamp` ([#34](https://github.com/stardust-configs/stylelint-config/issues/34)) ([d5394f3](https://github.com/stardust-configs/stylelint-config/commit/d5394f3959ac1d40aa3073ddd982569da3003916))
+* disallow `line-height` to have units ([#35](https://github.com/stardust-configs/stylelint-config/issues/35)) ([c3ef918](https://github.com/stardust-configs/stylelint-config/commit/c3ef918cdf49c7440a987cc7da880d88cc256f8f))
+
 ## [0.9.0](https://github.com/stardust-configs/stylelint-config/compare/v0.8.0...v0.9.0) (2024-01-02)
 
 
