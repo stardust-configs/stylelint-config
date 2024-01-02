@@ -157,6 +157,7 @@ const enforceNonStylisticConventions = {
   'hue-degree-notation': 'number',
   'import-notation': 'string',
   'keyframe-selector-notation': 'percentage-unless-within-keyword-only-block',
+  'lightness-notation': null,
   'media-feature-range-notation': null,
   'selector-not-notation': 'complex',
   'selector-pseudo-element-colon-notation': 'double',
