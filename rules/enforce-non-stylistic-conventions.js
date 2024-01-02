@@ -84,7 +84,15 @@ const enforceNonStylisticConventions = {
   'unit-disallowed-list': null,
 
   // Value
-  'value-no-vendor-prefix': true,
+  'value-no-vendor-prefix': [
+    true,
+    {
+      ignoreValues: [
+        // Allow `-webkit-box` for `line-clamp`
+        'box',
+      ],
+    },
+  ],
 
   /**
    * Case
