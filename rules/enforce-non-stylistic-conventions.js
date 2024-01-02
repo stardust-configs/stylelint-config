@@ -23,7 +23,14 @@ const enforceNonStylisticConventions = {
 
   // Declaration
   'declaration-no-important': true,
-  'declaration-property-unit-allowed-list': null,
+  'declaration-property-unit-allowed-list': {
+    /**
+     * Disallow `line-height` to have units
+     *
+     * @see https://developer.mozilla.org/en-US/docs/Web/CSS/line-height#prefer_unitless_numbers_for_line-height_values
+     */
+    'line-height': [],
+  },
   'declaration-property-unit-disallowed-list': null,
   'declaration-property-value-allowed-list': null,
   'declaration-property-value-disallowed-list': {
