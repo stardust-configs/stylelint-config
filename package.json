@@ -31,10 +31,10 @@
   "devDependencies": {
     "@stardust-configs/prettier-config": "0.3.0",
     "prettier": "3.1.1",
-    "stylelint": "16.1.0"
+    "stylelint": "17.15.0"
   },
   "peerDependencies": {
     "prettier": "^3.0.0",
-    "stylelint": "^16.0.0"
+    "stylelint": "^16.0.0 || ^17.0.0"
   }
 }
